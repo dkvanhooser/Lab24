@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="User.css">
+<title>New User Submit Form</title>
+</head>
+<body>
+<h1>Add user</h1>
+<form name="form1" action="adduser.jsp" method="get">
+Username:<input type = "text" name = "username" size= "17"><br />
+Password:<input type = "password" name = "password" size= "20"><br />
+E-mail:<input type ="text" name ="email" size= "25"><br />
+Full Name:<input type = "text" name = "fullname" size= "30"><br />
+Permissions :
+	<select name="permission">
+    <option value ="1" selected>User</option>
+    <option value="0">Admin</option>
+	</select> <br/>
+	<button type="submit">Submit!</button>
+</form>
+</body>
+</html>

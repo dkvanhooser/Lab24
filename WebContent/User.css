@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+body {
+	background-color: silver;
+}
+
+table {
+	background-color: #DCDCDC;
+}
+
+table td, th {
+	border-width: 1px;
+	padding: 10px;
+	border-style: inset;
+	border-color: gray;
+}
+
+legend {
+	font-size: 40px;
+	font-style: oblique;
+	padding: 15px;
+}
+
+div {
+	color: black;
+}
+
+table th:hover {
+	background-color: yellow;
+}
